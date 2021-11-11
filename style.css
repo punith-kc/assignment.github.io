@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Montserrat+Alternates:wght@500&display=swap');
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9DAD9;
+}
+
+.my_faa {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 43px;
+    color: #F8FCFF;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.glyphicon.glyphicon-picture {
+    color: #03A9F5;
+    font-size: 18px;
+    line-height: 4;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.light_blue {
+    background-color: #03A9F5;
+    padding: 9rem 8rem;
+    margin-right: -2px;
+}
+
+.d-grid {
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
+
+.lorr {
+    color: #fff;
+    line-height: 1.8;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.full_whit {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.mirnar{color: #F8FCFF;}
+.mirnar li{list-style: none; display: flex;
+    align-items: center;}
+
+.glyphicon.glyphicon-search, .glyphicon.glyphicon-lock{
+    width: 36px;
+    height: 35px;
+    background: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #03A9F5;
+    font-size: 12px;
+    line-height: 4;
+    margin: 15px;
+}
+
+.glyphicon.glyphicon-trash{
+    background: #03A9F5;
+    color: #fff;
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 18px;
+    line-height: 4;
+    margin: 15px;
+
+}
+.mirnar.black{color: #000;}
+.feat{font-weight: 800;}
+.align-choot{padding: 5.4rem 6rem;}
+.hoodboys{line-height: 2.1; font-weight: 400;color: #000000b5;} 
+
+.mirnar.black li {padding-bottom: 3em;}
+.navbar{display: none;}
+
+
+@media only screen and (max-width: 768px){
+.navbar.navbar-default{display: block;
+margin-bottom: 0px;
+}
+.glyphicon.glyphicon-picture{
+display: none;
+}
+.glyphicon.glyphicon-trash {
+    width: 135px;
+}
+.light_blue{
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000 !important;
+    font-size: 30px !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #03a9f5 !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff !important;
+}
+
+.light_blue {    padding: 9rem 5rem;
+}}
